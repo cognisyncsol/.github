@@ -19,9 +19,34 @@ We build intelligent technology that solves real-world problems.
 
 ## About Us
 
-**Cognisync Solutions Limited** is a technology company that engineers software, intelligent systems and digital infrastructure.
+**Technology engineered for the unimagined.**
 
-We bring together software engineering, artificial intelligence, automation and emerging technologies to build systems that are reliable in production, scale as their users grow, and solve the problem they were built for.
+**Cognisync Solutions Limited** is a Nairobi-based technology company. We design, build and run the software, data platforms and AI infrastructure that organizations depend on.
+
+We pair modern engineering with a clear understanding of how your business works, so the systems we deliver fit the way your people operate today and leave room for what you will need tomorrow.
+
+## Vision & Mission
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Our Vision
+**Rising to the forefront**
+
+To position Africa at the forefront of global technological innovation by engineering intelligent solutions that redefine what is possible.
+
+</td>
+<td width="50%" valign="top">
+
+### Our Mission
+**Accelerating Africa**
+
+To accelerate Africa's technological and economic advancement by engineering and deploying purpose-built, intelligent, and future-ready solutions that transform businesses, solve complex problems, and create lasting impact.
+
+</td>
+</tr>
+</table>
 
 ## What We Do
 
