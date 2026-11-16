@@ -15,10 +15,9 @@ Cognisync builds intelligent systems end to end: the models and data underneath,
 around them, and the devices that connect them to the physical world. We take AI from idea to production and stay
 to run, measure and improve it.
 
-## Manifesto
+## Our Great Manifesto
 
-> To position Africa at the forefront of global technological innovation by engineering intelligent solutions that
-> redefine what is possible.
+To position Africa at the forefront of global technological innovation by engineering intelligent solutions that redefine what is possible.
 
 **Mission.** To accelerate Africa's technological and economic advancement by engineering and deploying
 purpose-built, intelligent and future-ready solutions that transform businesses, solve complex problems and create
