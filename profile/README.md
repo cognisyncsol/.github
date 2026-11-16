@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="https://raw.githubusercontent.com/cognisyncsol/.github/main/profile/assets/cognisync-icon.png" alt="Cognisync logo" width="140" />
+</p>
+
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="public/brand/plain/cognisync-plain-horizontal-caps-white.svg" />
     <img src="public/brand/plain/cognisync-plain-horizontal-caps-black.svg" alt="Cognisync" width="420" />
