@@ -36,6 +36,7 @@ lasting impact.
 
 | Practice | Focus |
 | --- | --- |
+| **Software Design & Development** | Requirements, system and UX design, then web, mobile and enterprise applications built to scale. |
 | **AI Infrastructure** | LLM integration, retrieval (RAG) and vector search, model serving, evaluation and monitoring. |
 | **Database Engineering** | Data modelling, migrations, performance tuning, replication and tested backup and restore. |
 | **Systems & API Integration** | APIs, payment platforms and ERP/CRM connectors that move data without manual re-entry. |
@@ -43,28 +44,64 @@ lasting impact.
 
 **IoT & Embedded Systems**
 
-Firmware, sensor networks and connected-device fleets with over-the-air updates, bringing real-world data into
-software and AI.
+| Practice | Focus |
+| --- | --- |
+| **Embedded Systems Design** | Hardware selection, circuit and PCB design, and prototypes built around microcontrollers and single-board computers. |
+| **Firmware Development** | Reliable, low-power firmware for ESP32, Arduino and Raspberry Pi class devices. |
+| **Connectivity & Sensor Networks** | Wi-Fi, cellular, LoRa and MQTT networks that link sensors and devices to the cloud. |
+| **Device Management & OTA** | Provisioning, monitoring and over-the-air updates for connected-device fleets. |
+| **Telemetry & Dashboards** | Real-time data pipelines, alerts and dashboards that feed real-world data into software and AI. |
 
 ## Software architecture
 
-Our practices are layers of one system, designed to plug into each other:
+Our practices are layers of one system, designed to plug into each other. Data enters at the edge, is integrated,
+stored and modelled on a managed cloud platform, and leaves as products people use.
 
-```
-  Input        sensors & devices  ·  documents & records  ·  apps & users
-                 │  (edge: IoT & Embedded Systems)
-  ┌─ Cloud Management & DevOps ──────────────────────────────────────┐
-  │  Systems & API Integration                                       │
-  │        │                                                         │
-  │  Database Engineering   ──►   AI Infrastructure                  │
-  └──────────────────────────────────────────────────────────────────┘
-                 │
-  Output       assistants & search  ·  dashboards & alerts  ·  automations
+```mermaid
+flowchart TB
+    subgraph IN["Inputs"]
+        direction LR
+        I1["Sensors & devices"]
+        I2["Documents & records"]
+        I3["Apps & users"]
+    end
+
+    EDGE["IoT & Embedded Systems<br/>firmware · gateways · OTA updates"]
+
+    subgraph PLATFORM["Cloud Management & DevOps: infrastructure as code · CI/CD · observability"]
+        direction TB
+        INT["Systems & API Integration<br/>REST APIs · payments · ERP/CRM connectors"]
+        APP["Software Design & Development<br/>web · mobile · services"]
+        DB["Database Engineering<br/>data models · replication · backup"]
+        AI["AI Infrastructure<br/>RAG · model serving · evaluation"]
+    end
+
+    subgraph OUT["Outcomes"]
+        direction LR
+        O1["Assistants & search"]
+        O2["Dashboards & alerts"]
+        O3["Automations"]
+    end
+
+    I1 --> EDGE --> INT
+    I2 --> INT
+    I3 --> APP
+    INT --> DB
+    APP <--> DB
+    DB --> AI
+    AI --> APP
+    APP --> O1
+    APP --> O2
+    INT --> O3
 ```
 
-We design for production from the first commit: clear service boundaries and versioned APIs, data models built
-around real access patterns, infrastructure as code, automated testing and delivery, and observability across
-models, data and devices.
+**Principles we design by**
+
+- **Production from the first commit:** clear service boundaries and versioned APIs.
+- **Data first:** data models built around real access patterns, with replication and tested restores.
+- **Everything as code:** infrastructure, configuration and pipelines are versioned and reviewed.
+- **Automated delivery:** testing and deployment run on every change.
+- **Observable by default:** metrics, logs and alerts across models, data and devices.
 
 ## R&D and innovation
 
@@ -77,11 +114,6 @@ We research before we build, so clients invest in what works.
 
 Alongside client work we run innovation sprints, applied AI research and architecture consulting, turning
 emerging technology into practical roadmaps.
-
-## How we work
-
-Every engagement follows four phases: **Discover → Design → Build → Run**. Clients see working software early,
-own the full source code at handover, and get support after launch.
 
 ## Core stack
 
