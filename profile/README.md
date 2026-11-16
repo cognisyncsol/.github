@@ -75,17 +75,17 @@ We research before we build, so clients invest in what works.
 Alongside client work we run innovation sprints, applied AI research and architecture consulting, turning
 emerging technology into practical roadmaps.
 
-## Core stack
+## Our stack
 
-![Hugging Face](https://img.shields.io/badge/hugging_face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/postgresql-316192?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-DD0031?style=flat-square&logo=redis&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/aws-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Azure](https://img.shields.io/badge/azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/google_cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![ESP32](https://img.shields.io/badge/esp32-E7352C?style=flat-square&logo=espressif&logoColor=white)
-![MQTT](https://img.shields.io/badge/mqtt-660066?style=flat-square&logo=mqtt&logoColor=white)
+Our stack is built around capabilities, not vendors. We choose the tools that fit each client's problem.
+
+![Artificial Intelligence](https://img.shields.io/badge/Artificial_Intelligence-7C3AED?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-6D28D9?style=for-the-badge)
+![IoT & Embedded](https://img.shields.io/badge/IoT_%26_Embedded-059669?style=for-the-badge)
+![Data Engineering](https://img.shields.io/badge/Data_Engineering-D97706?style=for-the-badge)
+![Cloud & DevOps](https://img.shields.io/badge/Cloud_%26_DevOps-0891B2?style=for-the-badge)
+![Software Engineering](https://img.shields.io/badge/Software_Engineering-2563EB?style=for-the-badge)
+![Systems Integration](https://img.shields.io/badge/Systems_Integration-DC2626?style=for-the-badge)
 
 ## Contact
 
