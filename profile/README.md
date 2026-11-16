@@ -3,13 +3,6 @@
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="public/brand/plain/cognisync-plain-horizontal-caps-white.svg" />
-    <img src="public/brand/plain/cognisync-plain-horizontal-caps-black.svg" alt="Cognisync" width="420" />
-  </picture>
-</p>
-
-<p align="center">
   <strong>Engineered for the Unimagined.</strong><br />
   An AI-first engineering company based in Nairobi, Kenya.
 </p>
