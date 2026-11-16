@@ -100,4 +100,8 @@ Our work is organized around capabilities, not vendors:
 
 ## Contact
 
-[cognisync.co.ke](https://www.cognisync.co.ke) · [info@cognisync.co.ke](mailto:info@cognisync.co.ke)
+<p align="center">
+<a href="https://www.cognisync.co.ke"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cognisyncsol/.github/main/profile/assets/contact-web-dark.svg" /><img src="https://raw.githubusercontent.com/cognisyncsol/.github/main/profile/assets/contact-web-light.svg" alt="Website: cognisync.co.ke" width="380" /></picture></a>
+&nbsp;
+<a href="mailto:info@cognisync.co.ke"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cognisyncsol/.github/main/profile/assets/contact-email-dark.svg" /><img src="https://raw.githubusercontent.com/cognisyncsol/.github/main/profile/assets/contact-email-light.svg" alt="Email: info@cognisync.co.ke" width="380" /></picture></a>
+</p>
