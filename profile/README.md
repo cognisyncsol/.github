@@ -12,7 +12,7 @@
 
 ---
 
-## About
+## Company
 
 Cognisync builds intelligent systems end to end: the models and data underneath, the software and integrations
 around them, and the devices that connect them to the physical world. We take AI from idea to production and stay
