@@ -54,54 +54,14 @@ lasting impact.
 
 ## Software architecture
 
-Our practices are layers of one system, designed to plug into each other. Data enters at the edge, is integrated,
-stored and modelled on a managed cloud platform, and leaves as products people use.
+One connected system, from device to decision:
 
 ```mermaid
-flowchart TB
-    subgraph IN["Inputs"]
-        direction LR
-        I1["Sensors & devices"]
-        I2["Documents & records"]
-        I3["Apps & users"]
-    end
-
-    EDGE["IoT & Embedded Systems<br/>firmware · gateways · OTA updates"]
-
-    subgraph PLATFORM["Cloud Management & DevOps: infrastructure as code · CI/CD · observability"]
-        direction TB
-        INT["Systems & API Integration<br/>REST APIs · payments · ERP/CRM connectors"]
-        APP["Software Design & Development<br/>web · mobile · services"]
-        DB["Database Engineering<br/>data models · replication · backup"]
-        AI["AI Infrastructure<br/>RAG · model serving · evaluation"]
-    end
-
-    subgraph OUT["Outcomes"]
-        direction LR
-        O1["Assistants & search"]
-        O2["Dashboards & alerts"]
-        O3["Automations"]
-    end
-
-    I1 --> EDGE --> INT
-    I2 --> INT
-    I3 --> APP
-    INT --> DB
-    APP <--> DB
-    DB --> AI
-    AI --> APP
-    APP --> O1
-    APP --> O2
-    INT --> O3
+flowchart LR
+    A["IoT devices<br/>& apps"] --> B["Integration<br/>& APIs"] --> C["Databases"] --> D["AI"] --> E["Software<br/>& dashboards"]
 ```
 
-**Principles we design by**
-
-- **Production from the first commit:** clear service boundaries and versioned APIs.
-- **Data first:** data models built around real access patterns, with replication and tested restores.
-- **Everything as code:** infrastructure, configuration and pipelines are versioned and reviewed.
-- **Automated delivery:** testing and deployment run on every change.
-- **Observable by default:** metrics, logs and alerts across models, data and devices.
+All of it runs on managed cloud infrastructure, deployed through CI/CD and monitored end to end.
 
 ## R&D and innovation
 
