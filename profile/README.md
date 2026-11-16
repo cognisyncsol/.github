@@ -77,7 +77,13 @@ emerging technology into practical roadmaps.
 
 ## Our stack
 
-Our stack is built around capabilities, not vendors. We choose the tools that fit each client's problem.
+We don't have one fixed stack. We choose the best stack for the kind of engineering hurdle we are solving:
+
+- **A sensor in a remote field** needs low-power firmware and lightweight, reliable messaging.
+- **An AI assistant over company documents** needs retrieval, model serving and evaluation.
+- **A platform handling thousands of payments** needs strong data consistency, secure APIs and room to scale.
+
+Our work is organized around capabilities, not vendors:
 
 ![Artificial Intelligence](https://img.shields.io/badge/Artificial_Intelligence-7C3AED?style=for-the-badge)
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-6D28D9?style=for-the-badge)
