@@ -77,16 +77,13 @@ emerging technology into practical roadmaps.
 
 ## Core stack
 
-![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
-![TypeScript](https://img.shields.io/badge/typescript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![FastAPI](https://img.shields.io/badge/fastapi-005571?style=flat-square&logo=fastapi&logoColor=white)
-![PyTorch](https://img.shields.io/badge/pytorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/hugging_face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/postgresql-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/redis-DD0031?style=flat-square&logo=redis&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![AWS](https://img.shields.io/badge/aws-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Azure](https://img.shields.io/badge/azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/google_cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![ESP32](https://img.shields.io/badge/esp32-E7352C?style=flat-square&logo=espressif&logoColor=white)
 ![MQTT](https://img.shields.io/badge/mqtt-660066?style=flat-square&logo=mqtt&logoColor=white)
 
