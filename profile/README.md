@@ -85,13 +85,18 @@ We don't have one fixed stack. We choose the best stack for the kind of engineer
 
 Our work is organized around capabilities, not vendors:
 
-![Artificial Intelligence](https://img.shields.io/badge/Artificial_Intelligence-7C3AED?style=for-the-badge)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-6D28D9?style=for-the-badge)
-![IoT & Embedded](https://img.shields.io/badge/IoT_%26_Embedded-059669?style=for-the-badge)
-![Data Engineering](https://img.shields.io/badge/Data_Engineering-D97706?style=for-the-badge)
-![Cloud & DevOps](https://img.shields.io/badge/Cloud_%26_DevOps-0891B2?style=for-the-badge)
-![Software Engineering](https://img.shields.io/badge/Software_Engineering-2563EB?style=for-the-badge)
-![Systems Integration](https://img.shields.io/badge/Systems_Integration-DC2626?style=for-the-badge)
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Artificial_Intelligence-FFFFFF?style=for-the-badge" /><img src="https://img.shields.io/badge/Artificial_Intelligence-111111?style=for-the-badge" alt="Artificial Intelligence" height="40" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Machine_Learning-FFFFFF?style=for-the-badge" /><img src="https://img.shields.io/badge/Machine_Learning-111111?style=for-the-badge" alt="Machine Learning" height="40" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/IoT_%26_Embedded-FFFFFF?style=for-the-badge" /><img src="https://img.shields.io/badge/IoT_%26_Embedded-111111?style=for-the-badge" alt="IoT &amp; Embedded" height="40" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Data_Engineering-FFFFFF?style=for-the-badge" /><img src="https://img.shields.io/badge/Data_Engineering-111111?style=for-the-badge" alt="Data Engineering" height="40" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Database_Engineering-FFFFFF?style=for-the-badge" /><img src="https://img.shields.io/badge/Database_Engineering-111111?style=for-the-badge" alt="Database Engineering" height="40" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Cloud_%26_DevOps-FFFFFF?style=for-the-badge" /><img src="https://img.shields.io/badge/Cloud_%26_DevOps-111111?style=for-the-badge" alt="Cloud &amp; DevOps" height="40" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Software_Engineering-FFFFFF?style=for-the-badge" /><img src="https://img.shields.io/badge/Software_Engineering-111111?style=for-the-badge" alt="Software Engineering" height="40" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Systems_Integration-FFFFFF?style=for-the-badge" /><img src="https://img.shields.io/badge/Systems_Integration-111111?style=for-the-badge" alt="Systems Integration" height="40" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Product_%26_UX_Design-FFFFFF?style=for-the-badge" /><img src="https://img.shields.io/badge/Product_%26_UX_Design-111111?style=for-the-badge" alt="Product &amp; UX Design" height="40" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Research_%26_Development-FFFFFF?style=for-the-badge" /><img src="https://img.shields.io/badge/Research_%26_Development-111111?style=for-the-badge" alt="Research &amp; Development" height="40" /></picture>
+</p>
 
 ## Contact
 
